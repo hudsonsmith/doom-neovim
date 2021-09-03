@@ -6,7 +6,6 @@ call plug#begin('~/.config/nvim/plugins/')
 
 Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
-Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-fugitive'
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 Plug 'airblade/vim-gitgutter'
