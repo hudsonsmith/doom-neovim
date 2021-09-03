@@ -13,12 +13,17 @@ endfunction
 set statusline+=%#PmenuSel#
 set statusline+=\  
 set statusline+=%#TablineFill#
+set statusline+=\  
 set statusline+=\ %F
-set statusline+=%{&modified?'[+]':''}
+set statusline+=\  
+set statusline+=%1*
+set statusline+=%{&modified?'':''}
 set statusline+=%=
 set statusline+=%2*
 set statusline+=%{StatuslineGit()}
 set statusline+=%1*
+set statusline+=\  
+set statusline+=\  
 set statusline+=
 set statusline+=\  
 set statusline+=\ doom
