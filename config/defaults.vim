@@ -61,6 +61,8 @@ noremap <silent><C-t> :tabnew<CR>
 inoremap <C-t> <Esc>:tabnew<CR>
 
 " Highlight the cursorline.
-hi CursorLine guibg=#21252A
-autocmd WinEnter * set cursorline
-autocmd WinLeave * set nocursorline
+" hi CursorLine guibg=#21252A
+" autocmd WinEnter * set cursorline
+" autocmd WinLeave * set nocursorline
+
+" hi CursorLine term=bold cterm=bold guibg=#21252A

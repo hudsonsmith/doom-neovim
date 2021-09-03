@@ -32,6 +32,6 @@ let g:dashboard_session_directory = "~/.config/nvim/sessions/"
 
 
 
-autocmd! FileType dashboard set laststatus=0 showtabline=0 noshowmode noruler
-  \| autocmd BufLeave <buffer> set laststatus=2 showtabline=2 showmode ruler
+autocmd! FileType dashboard set showtabline=0 noshowmode noruler
+  \| autocmd BufLeave <buffer> set showtabline=2 showmode ruler
 
