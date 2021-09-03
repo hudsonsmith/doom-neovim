@@ -21,10 +21,11 @@
 " Author: Hudson Smith
 " => Yay! Evil! HAHAHAHAHAHA!!!!!!!!!
 
-source ./config/dashboard.vim
-source ./config/custom.vim
-source ./config/plugins.vim
-source ./config/defaults.vim
+source ~/.config/nvim/config/defaults.vim
+source ~/.config/nvim/config/custom.vim
+source ~/.config/nvim/config/statusline.vim
+source ~/.config/nvim/config/dashboard.vim
+source ~/.config/nvim/config/plugins.vim
 
 
 " ======================================
