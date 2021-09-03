@@ -1,0 +1,5 @@
+# Ignore Plugins
+plugins/
+
+# Ignore Doom Nvim swap files.
+*.swp

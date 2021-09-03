@@ -2,7 +2,7 @@
 " => Vim-Plug Plugins.
 " ======================================
 
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.config/nvim/plugins/')
 
 Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'

@@ -21,11 +21,10 @@
 " Author: Hudson Smith
 " => Yay! Evil! HAHAHAHAHAHA!!!!!!!!!
 
+source ./config/dashboard.vim
 source ./config/custom.vim
 source ./config/plugins.vim
 source ./config/defaults.vim
-
-
 
 
 " ======================================
@@ -213,8 +212,6 @@ let g:dashboard_custom_header = [
                                                                    
 
 
-" Open Dashboard.
-nnoremap <c-n> :Dashboard<CR>
 
 
 " ======================================
@@ -226,7 +223,7 @@ nnoremap <c-n> :Dashboard<CR>
 
 hi DashboardHeader guifg=#474D53
 hi DashboardCenter guifg=#51AFEF
-hi DashboardShortcut guifg=#51AFEF
+hi DashboardShortcut guifg=#A9A1E1
 hi DashboardFooter guifg=#474D53
 
 let g:airline#extensions#tabline#keymap_ignored_filetypes =
