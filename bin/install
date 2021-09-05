@@ -18,6 +18,7 @@ say () {
 }
 
 say "Copying files..."
+mkdir -p ~/.config/nvim/
 cp ~/doom-neovim/* ~/.config/nvim/
 
 say "Installing required packages Neovim and Python3..."
