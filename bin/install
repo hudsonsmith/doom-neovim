@@ -17,12 +17,8 @@ say () {
 	echo -e "${colors['purple']}  Doom${colors['reset']}: $1"
 }
 
-if [ $EUID != 0 ]; then
-	echo "Doom: Must run as root."
-	exit 1
-fi
-
-echo 
+say "Copying files..."
+cp ~/doom-neovim/* ~/.config/nvim/
 
 say "Installing required packages Neovim and Python3..."
 
