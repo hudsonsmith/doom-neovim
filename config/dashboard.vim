@@ -1,11 +1,14 @@
 " Create custom shortcuts for the Neovim Dashboard.
 " " 
 
+
+let g:dashboard_default_executive ="fzf"
+
 " Dashboard Shortcuts.
 nmap <Leader>ss  :<C-u>SessionSave<CR>
 nmap <Leader>ls :<C-u>SessionLoad<CR>
 nnoremap <silent> <Leader>rf :DashboardFindHistory<CR>
-nnoremap <silent> <Leader>ff :DashBoardFindFile<CR>
+nnoremap <silent> <Leader>ff :DashboardFindFile<CR>
 nnoremap <silent> <Leader>tc :DashboardChangeColorscheme<CR>
 nnoremap <silent> <Leader>fa :DashboardFindWord<CR>
 nnoremap <silent> <Leader>bb :DashboardJumpMark<CR>
@@ -24,14 +27,43 @@ let g:dashboard_custom_shortcut = {
 	\ "book_marks": 'SPC b b'
 \ }
 
+
 " Open Dashboard.
 nnoremap <silent><Leader>n :Dashboard<CR>
 
 " Dashboard Session Path.
-let g:dashboard_session_directory = "~/.config/nvim/sessions/"
+let g:dashboard_session_directory = "~/.config/nvim/sessions"
 
 
 
 autocmd! FileType dashboard set showtabline=0 noshowmode noruler
   \| autocmd BufLeave <buffer> set showtabline=2 showmode ruler
 
+
+let g:dashboard_custom_header = [
+            \"=================     ===============     ===============   ========  ========",
+            \"\\\\ . . . . . . .\\\\   //. . . . . . .\\\\   //. . . . . . .\\\\  \\\\. . .\\\\// . . //",
+            \"||. . ._____. . .|| ||. . ._____. . .|| ||. . ._____. . .|| || . . .\\/ . . .||",
+            \"|| . .||   ||. . || || . .||   ||. . || || . .||   ||. . || ||. . . . . . . ||",
+            \"||. . ||   || . .|| ||. . ||   || . .|| ||. . ||   || . .|| || . | . . . . .||",
+            \"|| . .||   ||. _-|| ||-_ .||   ||. . || || . .||   ||. _-|| ||-_.|\\ . . . . ||",
+            \"||. . ||   ||-'  || ||  `-||   || . .|| ||. . ||   ||-'  || ||  `|\\_ . .|. .||",
+            \"|| . _||   ||    || ||    ||   ||_ . || || . _||   ||    || ||   |\\ `-_/| . ||",
+            \"||_-' ||  .|/    || ||    \\|.  || `-_|| ||_-' ||  .|/    || ||   | \\  / |-_.||",
+            \"||    ||_-'      || ||      `-_||    || ||    ||_-'      || ||   | \\  / |  `||",
+            \"||    `'         || ||         `'    || ||    `'         || ||   | \\  / |   ||",
+            \"||            .===' `===.         .==='.`===.         .===' /==. |  \\/  |   ||",
+            \"||         .=='   \\_|-_ `===. .==='   _|_   `===. .===' _-|/   `==  \\/  |   ||",
+            \"||      .=='    _-'    `-_  `='    _-'   `-_    `='  _-'   `-_  /|  \\/  |   ||",
+            \"||   .=='    _-'          '-__\\._-'         '-_./__-'         `' |. /|  |   ||",
+            \"||.=='    _-'                                                     `' |  /==.||",
+            \"=='    _-'                        N E O V I M                         \\/   `==",
+            \"\\   _-'                                                                `-_   /",
+            \"`''                                                                      ``'",
+            \ ]
+                                                                   
+
+hi DashboardHeader guifg=#474D53
+hi DashboardCenter guifg=#51AFEF
+hi DashboardShortcut guifg=#A9A1E1
+hi DashboardFooter guifg=#474D53
