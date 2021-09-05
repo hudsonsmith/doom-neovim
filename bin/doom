@@ -1,0 +1,13 @@
+#! /bin/bash
+
+case $1 in
+	install)
+		~/.config/nvim/bin/install
+		;;
+	upgrade)
+		echo "NOT IMPLEMENTED!!!"
+		;;
+	*)
+		echo "DOOM: Invalid parameter $1"
+		;;
+esac
