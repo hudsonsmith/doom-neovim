@@ -19,7 +19,7 @@ say () {
 
 say "Copying files..."
 mkdir -p ~/.config/nvim/
-cp ~/doom-neovim/* ~/.config/nvim/
+cp -r ~/doom-neovim ~/.config/nvim
 
 touch ~/.config/nvim/config/custom.vim
 
