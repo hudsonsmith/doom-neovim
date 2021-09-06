@@ -1,5 +1,6 @@
 #! /bin/bash
 
-cd ~
+cd ~/config/
 git clone https://github.com/hudsonsmith/doom-neovim.git
-cp -r ~/doom-neovim/* ~/.config/nvim
+cp -r ~/.config/doom-neovim/* ~/.config/nvim
+rm -rf ~/.config/doom-neovim
