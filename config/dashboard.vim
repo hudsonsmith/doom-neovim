@@ -1,6 +1,4 @@
 " Create custom shortcuts for the Neovim Dashboard.
-" " 
-
 
 let g:dashboard_default_executive ="fzf"
 
