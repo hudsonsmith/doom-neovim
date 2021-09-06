@@ -3,3 +3,6 @@ plugins/
 
 # Ignore Doom Nvim swap files.
 *.swp
+
+# Ignore the defaults.vim file.
+config/defaults.vim
