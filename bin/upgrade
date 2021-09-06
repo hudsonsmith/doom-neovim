@@ -1,4 +1,5 @@
 #! /bin/bash
 
-cd ~/.config/nvim
-git pull
+cd ~
+git clone https://github.com/hudsonsmith/doom-neovim.git
+cp -r ~/doom-neovim/* ~/.config/nvim
