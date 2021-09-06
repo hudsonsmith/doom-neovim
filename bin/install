@@ -21,12 +21,9 @@ say "Copying files..."
 mkdir -p ~/.config/nvim/
 cp ~/doom-neovim/* ~/.config/nvim/
 
-say "Installing required packages Neovim and Python3..."
+touch ~/.config/nvim/config/custom.vim
 
-sudo apt-get update
-sudo apt-get install nvim python3
-
-say "Installed, moving on..."
+say "Files have been copied, moving on..."
 
 say "Installing Vim Plug..."
 
