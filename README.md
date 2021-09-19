@@ -28,6 +28,7 @@ The whole point of Doom is so that people can have a sane Neovim config that the
 - Modern Git support.
 - FZF support.
 - Better start screen with Dashboard-nvim[dashboard-nvim]
+- Custom made statusline made specifically for Doom Neovim.
 
 # Install
 ``` sh
