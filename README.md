@@ -18,7 +18,7 @@
 # Introduction
 > It is a story as old as time. A stubborn, shell-dwelling, and melodramatic
 > vimmer—envious of the features of modern text editors—spirals into
-> despair before he succumbs to the [dark side][evil-mode]. This is his config.
+> despair before he succumbs to the dark side. This is his config.
 
 Doom is a configuration built on top of Neovim for anybody who wants the features of modern IDEs inside vim.
 Doom is easy to setup and use and it does not waste your time.
@@ -29,7 +29,7 @@ The whole point of Doom is so that people can have a sane Neovim config that the
 - Sane defaults for insane people.
 - Modern Git support.
 - FZF support.
-- Better start screen with Dashboard-nvim[dashboard-nvim]
+- Better start screen with Dashboard-nvim
 - Custom made statusline made specifically for Doom Neovim.
 
 # Install
