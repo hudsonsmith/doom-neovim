@@ -8,7 +8,7 @@
 
 ![A picture of doom neovim running](doom-neovim.png "Doom Neovim")
 
-<div/>
+</div>
 
 ### Table of Contents
 - [Introduction](#introduction)
