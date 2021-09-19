@@ -7,7 +7,6 @@ call plug#begin('~/.config/nvim/plugins/')
 Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
 Plug 'tpope/vim-fugitive'
-Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 Plug 'airblade/vim-gitgutter'
 Plug 'davidhalter/jedi-vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
