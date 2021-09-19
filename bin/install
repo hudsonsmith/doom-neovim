@@ -33,7 +33,7 @@ say "Installed, moving on..."
 
 say "Installing neovim plugins..."
 
-nvim -c ":PlugInstall" &>/dev/null
+nvim -c ":PlugInstall|:qa!" &>/dev/null
 
 say "Installed, moving on..."
 
