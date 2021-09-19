@@ -27,19 +27,19 @@ say "Files have been copied, moving on..."
 say "Installing Vim Plug..."
 
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim' &> /dev/null &
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim' &> /dev/null
 
 say "Installed, moving on..."
 
 say "Installing neovim plugins..."
 
-nvim -c ":PlugInstall" &>/dev/null &
+nvim -c ":PlugInstall" &>/dev/null
 
 say "Installed, moving on..."
 
 say "Compiling YouCompleteMe libraries..."
 
-python3 ~/.config/nvim/plugins/YouCompleteMe/install.py --all &>/dev/null &
+python3 ~/.config/nvim/plugins/YouCompleteMe/install.py --all &>/dev/null
 
 say "Done!"
 
