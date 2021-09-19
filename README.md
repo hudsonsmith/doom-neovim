@@ -12,6 +12,8 @@
 
 ### Table of Contents
 - [Introduction](#introduction)
+- [Features](#features)
+- [Install](#install)
 
 # Introduction
 > It is a story as old as time. A stubborn, shell-dwelling, and melodramatic
