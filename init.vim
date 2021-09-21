@@ -26,3 +26,4 @@ source ~/.config/nvim/config/defaults.vim
 source ~/.config/nvim/config/statusline.vim
 source ~/.config/nvim/config/dashboard.vim
 source ~/.config/nvim/config/custom.vim
+source ~/.config/nvim/config/git.vim

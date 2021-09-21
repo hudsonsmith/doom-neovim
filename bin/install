@@ -33,13 +33,13 @@ say "Installed, moving on..."
 
 say "Installing neovim plugins..."
 
-nvim -c ":PlugInstall|:qa!" &>/dev/null
+nvim -c ":PlugInstall|:qa!"
 
 say "Installed, moving on..."
 
 say "Compiling YouCompleteMe libraries..."
 
-python3 ~/.config/nvim/plugins/YouCompleteMe/install.py --all &>/dev/null
+python3 ~/.config/nvim/plugins/YouCompleteMe/install.py --all
 
 say "Done!"
 
