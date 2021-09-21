@@ -26,6 +26,7 @@ say "Files have been copied, moving on..."
 
 say "Installing Vim Plug..."
 
+# TODO: Decide if making this curl action for Vim Plug run in parallel would be useful.
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim' &> /dev/null
 
