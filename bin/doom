@@ -5,6 +5,6 @@ case $1 in
 		~/.config/nvim/bin/upgrade
 		;;
 	*)
-		echo "DOOM: Invalid parameter $1"
+		nvim $1
 		;;
 esac

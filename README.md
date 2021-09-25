@@ -37,3 +37,5 @@ The whole point of Doom is so that people can have a sane Neovim config that the
 git clone https://github.com/hudsonsmith/doom-neovim.git ~/doom-neovim
 ~/doom-neovim/bin/install
 ```
+
+It is recommended that you add ~/.config/nvim/bin/ to your shell PATH.
