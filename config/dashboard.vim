@@ -26,7 +26,7 @@ let g:dashboard_custom_shortcut = {
 
 
 " Open Dashboard.
-nnoremap <silent><Leader>n :Dashboard<CR>
+nnoremap <silent><Leader>nn :Dashboard<CR>
 
 " Dashboard Session Path.
 let g:dashboard_session_directory = "~/.config/nvim/sessions"
