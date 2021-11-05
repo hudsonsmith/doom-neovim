@@ -4,6 +4,9 @@ case $1 in
 	upgrade)
 		~/.config/nvim/bin/upgrade
 		;;
+	init)
+		nvim ~/.config/init.vim
+		;;
 	*)
 		nvim $1
 		;;
