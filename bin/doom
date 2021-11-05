@@ -9,5 +9,4 @@ case $1 in
 		;;
 	*)
 		nvim $1
-		;;
 esac
