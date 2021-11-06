@@ -123,3 +123,6 @@ let g:ale_fix_on_save = 1
 " Allow easy switching between tabs.
 nnoremap <tab> :tabnext<CR>
 nnoremap <S-tab> :tabprevious<CR>
+
+" Allow ^W on tabbed files.
+nnoremap <C-w> :tabclose<CR>
