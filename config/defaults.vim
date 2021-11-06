@@ -128,4 +128,4 @@ nnoremap <silent><S-tab> :tabprevious<CR>
 nnoremap <silent><C-w> :tabclose<CR>
 
 " Allow splits to be made easily.
-nnoremap <silent><C-\> :vs<CR>
+nnoremap <silent>\ :vs<CR>
