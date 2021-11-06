@@ -121,8 +121,11 @@ let g:ale_fixers = {'python': ['black', 'remove_trailing_lines', 'trim_whitespac
 let g:ale_fix_on_save = 1
 
 " Allow easy switching between tabs.
-nnoremap <tab> :tabnext<CR>
-nnoremap <S-tab> :tabprevious<CR>
+nnoremap <silent><tab> :tabnext<CR>
+nnoremap <silent><S-tab> :tabprevious<CR>
 
 " Allow ^W on tabbed files.
-nnoremap <C-w> :tabclose<CR>
+nnoremap <silent><C-w> :tabclose<CR>
+
+" Allow splits to be made easily.
+nnoremap <silent><C-\> :vs<CR>
