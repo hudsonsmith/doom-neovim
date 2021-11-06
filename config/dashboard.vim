@@ -24,7 +24,6 @@ let g:dashboard_custom_shortcut = {
 	\ "book_marks": 'SPC b b'
 \ }
 
-
 " Open Dashboard.
 nnoremap <silent><Leader>nn :Dashboard<CR>
 
