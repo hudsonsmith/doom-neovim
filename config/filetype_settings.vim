@@ -2,9 +2,9 @@
 " => File specific settings.
 " ======================================
 
-setlocal ts=4 sts=4 sw=4 wrapmargin=2 expandtab
-autocmd FileType sh setlocal ts=4
+" autocmd FileType sh setlocal ts=4
 autocmd FileType vim setlocal ts=4 sts=4 sw=4 expandtab autoindent fileformat=unix
+autocmd FileType sh setlocal ts=4 sts=4 sw=4 expandtab autoindent fileformat=unix
 
 
 au BufNewFile, BufRead *.py
