@@ -3,3 +3,4 @@
 git clone https://github.com/hudsonsmith/doom-neovim.git /tmp/doom-neovim
 cp -r /tmp/doom-neovim/* ~/.config/nvim/
 rm -rf /tmp/doom-neovim
+nvim -c ":PlugInstall|:qa!"
