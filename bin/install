@@ -44,4 +44,7 @@ python3 ~/.config/nvim/plugins/YouCompleteMe/install.py --all
 
 say "Done!"
 
+say 'Adding doom program files to `$PATH`.'
+echo 'export PATH="$HOME/.config/nvim/bin:$PATH' >> ~/.bashrc
+
 say "Doom Neovim is successfully! Launch it now by typing \`nvim\`!"
