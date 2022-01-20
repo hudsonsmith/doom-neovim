@@ -1,3 +1,6 @@
+" Welcome the user.
+echo "Welcome to Doom Neovim!"
+
 " Create custom shortcuts for the Neovim Dashboard.
 let g:dashboard_default_executive ="fzf"
 

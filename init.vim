@@ -27,4 +27,7 @@ source ~/.config/nvim/config/filetype_settings.vim
 source ~/.config/nvim/config/statusline.vim
 source ~/.config/nvim/config/dashboard.vim
 source ~/.config/nvim/config/custom.vim
+
+" Source plugin settings.
 source ~/.config/nvim/config/git.vim
+source ~/.config/nvim/config/vimwiki.vim
