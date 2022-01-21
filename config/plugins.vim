@@ -16,5 +16,6 @@ Plug 'glepnir/dashboard-nvim'
 Plug 'ycm-core/YouCompleteMe'
 Plug 'romgrk/doom-one.vim'
 Plug 'vimwiki/vimwiki'
+Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
