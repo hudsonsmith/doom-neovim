@@ -14,7 +14,7 @@ let g:startify_lists = [
 
 let g:startify_commands = [
     \ {'t': ['Todo List', 'edit ~/.config/nvim/todo/index.md']},
-    \ {'t': ['Docs', 'edit ~/.config/nvim/docs/index.md']},
+    \ {'d': ['Docs', 'edit ~/.config/nvim/docs/index.md']},
     \ ]
 
 nnoremap <silent><Leader>nn :Startify<CR>
