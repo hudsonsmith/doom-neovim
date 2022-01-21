@@ -7,11 +7,16 @@ endfunction
 
 let g:startify_lists = [
       \ { 'type': 'files',     'header': ['   Recently Opened']            },
-      \ { 'type': 'dir',       'header': ['   Files in Directory'. getcwd()] },
-      \ { 'type': 'sessions',  'header': ['   Sessions']       },
-      \ { 'type': 'bookmarks', 'header': ['   Bookmarks']      },
+      \ { 'type': 'dir',       'header': ['   Files in Directory '. getcwd()] },
       \ { 'type': 'commands',  'header': ['   Commands']       },
       \ { 'type': function('s:list_commits'), 'header': ['   Commits'] },
       \ ]
 
-nnoremap <silent><Leader>nn :startify<CR>
+let g:startify_commands = [
+    \ ':help reference',
+    \ ['Vim Reference', 'h ref'],
+    \ {'h': 'h ref'},
+    \ {'t': ['Todo List', 'edit ~/.config/nvim/todo/index.md']},
+    \ ]
+
+nnoremap <silent><Leader>nn :Startify<CR>
