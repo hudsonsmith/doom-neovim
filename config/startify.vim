@@ -4,7 +4,7 @@ let g:startify_lists = [
       \ { 'type': 'sessions',  'header': ['   Sessions']       },
       \ { 'type': 'bookmarks', 'header': ['   Bookmarks']      },
       \ { 'type': 'commands',  'header': ['   Commands']       },
-      \ { 'type': function('s:foobar'), 'header': ['   Commits'] },
+      \ { 'type': function('s:list_commits'), 'header': ['   Commits'] },
       \ ]
 
 function! s:list_commits()
