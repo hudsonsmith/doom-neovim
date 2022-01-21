@@ -25,4 +25,4 @@
 > _While any text editor can save your files, only Vim can save your soul._
 
 = Intro =
-* [Why Vim?](whyvim.wiki)
+* [Why Vim?](whyvim.md)
