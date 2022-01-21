@@ -14,9 +14,4 @@ function! s:list_commits()
     return map(commits, '{"line": matchstr(v:val, "\\s\\zs.*"), "cmd": "'. git .' show ". matchstr(v:val, "^\\x\\+") }')
 endfunction
 
-let g:startify_bookmarks = [
-        \ {"t": ["Todo List", "edit ~/.nvim/config/todo/index.md"]}
-        \ ]
-
 nnoremap <silent><Leader>nn :startify<CR>
-
