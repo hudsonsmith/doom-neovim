@@ -25,7 +25,7 @@ source ~/.config/nvim/config/plugins.vim
 source ~/.config/nvim/config/defaults.vim
 source ~/.config/nvim/config/filetype_settings.vim
 source ~/.config/nvim/config/statusline.vim
-source ~/.config/nvim/config/startify.vim
+source ~/.config/nvim/config/dashboard.vim
 source ~/.config/nvim/config/custom.vim
 
 " Source plugin settings.
