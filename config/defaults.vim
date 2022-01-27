@@ -130,11 +130,6 @@ nnoremap <silent><C-w> :tabclose<CR>
 " Allow splits to be made easily.
 nnoremap <silent>\ :vs<CR>
 
-" Make the cursor thin bar.
-set guicursor=n-v-c:ver25,i-ci-ve:block,r-cr:hor20,o:hor50
-      \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
-      \,sm:block-blinkwait175-blinkoff150-blinkon175
-
 " Enable the mouse.
 set mouse=nicr
 set mouse=a
