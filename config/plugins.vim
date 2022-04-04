@@ -17,5 +17,6 @@ Plug 'ycm-core/YouCompleteMe'
 Plug 'romgrk/doom-one.vim'
 Plug 'vimwiki/vimwiki'
 Plug 'jiangmiao/auto-pairs'
+Plug 'dracula/vim'
 
 call plug#end()
