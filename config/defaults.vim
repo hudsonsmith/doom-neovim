@@ -3,7 +3,7 @@
 " ======================================
 
 " Set the colorscheme as doom-one
-colorscheme doom-one
+colorscheme dracula
 
 " Mapleader
 let mapleader = " "
